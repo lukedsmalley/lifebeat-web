@@ -1,0 +1,121 @@
+
+/* * * * COLORS * * * *
+fff: Background
+f8f8f8: Background Filled
+777: Default Text
+eee: Border
+* * * * * * * * * * * */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    color: #777;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 56pt;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+
+.raised {
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    background: white;
+}
+
+.box {
+    background-color: white;
+    border-radius: 0;
+}
+
+.frame {
+    /* -4px bottom margin for stupid inline whitespace */
+    display: inline-block;
+    margin: 22px 11px 20px 11px;
+}
+
+
+.btn {
+    margin: -8px 3px -8px 3px;
+    padding: 8px 16px 8px 16px;
+    font-size: 11pt;
+    font-weight: 500;
+    user-select: none;
+    cursor: pointer;
+    z-index: -99999;
+}
+
+.color-btn {
+    color: #fff; 
+    background-color: #3939b4;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.color-btn:hover {
+    background-color: #3949b4;
+}
+
+
+.divider {
+    border-top: 1px solid #eee;
+    margin-bottom: 1em;
+}
+
+
+.table-row {
+    margin-bottom: -1px;
+    border-bottom: 1px solid #eee;
+}
+
+.table-cell {
+    display: inline-block;
+    padding: 22px 11px 22px 11px;
+    margin-bottom: -2px;
+    margin-left: -1px;
+    border-left: 1px solid #eee;
+}
+
+.cell-tiny {
+    width: 10%;
+}
+
+.cell-small {
+    width: 30%;
+}
+
+.cell-right {
+    float: right;
+}
+
+.cell-center {
+    text-align: center;
+}
+
+.table-header {
+    background-color: #f7f7f7;
+}

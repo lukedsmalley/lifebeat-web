@@ -1,0 +1,49 @@
+
+#top {
+    position: relative;
+}
+
+#logout {
+    position: absolute;
+    right: 0;
+}
+
+#main-column {
+    width: 100vmin;
+    margin-left: calc(50% - 50vmin);
+    min-height: 70vh;
+    border: 1px solid #EEE;
+}
+
+#main-header {
+    display: inline-block;
+    width: 100%;
+    background: #3939b4;
+    color: #fff;
+}
+
+p {
+    margin-left: 5%;
+}
+
+#profile-table, #stat-table {
+    margin: 5%;
+}
+
+#live-feed, #live-feed-past {
+    position: relative;
+    margin: 15%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+    height: 200px;
+}
+
+#live-feed p {
+    margin-top: 90px;
+}
+
+#live-feed-past p {
+    margin-top: 90px;
+}

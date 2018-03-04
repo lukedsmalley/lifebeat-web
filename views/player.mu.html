@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Bilbo Baggins - Player Stats | Lifebeat</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/s/global.css">
+        <link type="text/css" rel="stylesheet" href="/s/player/player.css">
+    </head>
+
+    <body>
+        <div id="top" class="raised box">
+            <div id="logout" class="frame">
+                <div class="btn"><a href="/logout">Log Out</a></div>
+            </div>
+            <div id="back" class="frame">
+                <div class="raised btn color-btn"><a href="/main">Dashboard</a></div>
+            </div>
+        </div>
+
+        <div id="main-column" class="box">
+            <div id="main-header">
+                <h2>Bilbo Baggins</h2>
+            </div>
+            <div id="profile-table" class="raised">
+                <div class="table-row table-header">
+                    <div class="table-cell">
+                        Profile Information
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        Age
+                    </div>
+                    <div class="table-cell cell-small cell-right cell-center">
+                        50
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        Sex
+                    </div>
+                    <div class="table-cell cell-small cell-right cell-center">
+                        Male
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        Weight
+                    </div>
+                    <div class="table-cell cell-small cell-right cell-center">
+                        120 lbs.
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        Height
+                    </div>
+                    <div class="table-cell cell-small cell-right cell-center">
+                        3' 1"
+                    </div>
+                </div>
+            </div>
+
+            <div id="stat-table" class="raised">
+                <div class="table-row table-header">
+                    <div class="table-cell">
+                        Sustained Collisions
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        Mild (? &lt; 10G)
+                    </div>
+                    <div class="table-cell cell-small cell-right cell-center">
+                        {{mild}}
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        Moderate (10G &lt; ? &lt; 60G)
+                    </div>
+                    <div class="table-cell cell-small cell-right cell-center">
+                        {{moderate}}
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        Severe (? &gt; 60G)
+                    </div>
+                    <div class="table-cell cell-small cell-right cell-center">
+                        {{severe}}
+                    </div>
+                </div>
+            </div>
+            
+            <div style="{{liveFeed}}" id="live-feed">
+                <p>Live impact visualization is currently unavailable.</p>
+            </div>
+
+            <div style="{{pastLiveFeed}}" id="live-feed-past">
+                <p>(This would be the visualized impact data timeline.)</p>
+            </div>
+        </div>
+
+        <script src="/s/player/player.js"></script>
+    </body>
+</html>

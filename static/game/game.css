@@ -1,0 +1,31 @@
+
+#top {
+    position: relative;
+}
+
+#logout {
+    position: absolute;
+    right: 0;
+}
+
+#main-column {
+    width: 100vmin;
+    margin-left: calc(50% - 50vmin);
+    min-height: 70vh;
+    border: 1px solid #EEE;
+}
+
+#main-header {
+    display: inline-block;
+    width: 100%;
+    background: #3939b4;
+    color: #fff;
+}
+
+#game-table, #player-table {
+    margin: 5%;
+}
+
+.dashboard-table-header {
+    text-align: center;
+}
